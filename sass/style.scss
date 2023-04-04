@@ -1,0 +1,28 @@
+
+$cinzaClaro: #707070;
+$cinzaEscuro:#222222;
+$cinzaHead: #333333;
+$red: #ED686B;
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+.principal{
+
+	.forma{
+		background: $cinzaClaro;
+		width: 57%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 60vh;
+	}
+	.conteudo{
+		background: $cinzaEscuro;
+		border-radius: 8px 0px 0px 8px;
+	}
+}

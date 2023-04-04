@@ -1,3 +1,16 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
 
+.principal .forma {
+  background: #707070;
+  width: 57%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60vh; }
+.principal .conteudo {
+  background: #222222;
+  border-radius: 8px 0px 0px 8px; }
 
 /*# sourceMappingURL=style.css.map */

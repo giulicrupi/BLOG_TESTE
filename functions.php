@@ -9,10 +9,12 @@ function Blog_TESTE_scripts(){
 
  	//Bootstrap CSS
 	wp_enqueue_style( 'google-fonts', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css' );
-
+	
+	//Slick.css Biblioteca externa para o carrossel de imagens
+	wp_enqueue_style( 'slick-css','http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
 
  	// Google Fonts
- 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700' );
+ 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700' );
  	
 
 	// Jquery
@@ -20,6 +22,9 @@ function Blog_TESTE_scripts(){
 
 	//Bootstrap JS
 	wp_enqueue_script( 'boot-js','https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js');
+
+	//Slick.js biblioteca de carrossel 
+	wp_enqueue_script( 'slick-carousel','http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js');
 
 }
 add_action( 'wp_enqueue_scripts', 'Blog_TESTE_scripts' );
