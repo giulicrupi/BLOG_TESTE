@@ -92,8 +92,7 @@ A entrega final será composta por dois artefatos:
 
 
 ## Comentários sobre o site
-- A página principal foi adicionada no arquivo page-home.php.
-- Foi usado a biblioteca SLick.js para o carrossel de imagens.
+- Todo o código está comentado
 
 
 

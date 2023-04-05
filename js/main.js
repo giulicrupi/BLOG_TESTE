@@ -15,5 +15,16 @@ $(document).ready(function(){
 	   focusOnSelect: true,
 		prevArrow: ".thumb-prev",
    	nextArrow: ".thumb-next",
+ responsive: [
+      {
+        breakpoint: 500,
+        settings: {
+        slidesToShow: 1,
+        vertical: false,
+        centerMode: false,
+        
+        }
+      }
+    ]   	
 	});
 });

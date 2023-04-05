@@ -126,13 +126,25 @@ body {
               .principal .conteudo .container .slides .posts-nav .item-slide {
                 height: 33.5vh; } }
             .principal .conteudo .container .slides .posts-nav .item-slide .card-post {
-              height: 100%; }
+              height: 100%;
+              border: 2px solid #222222;
+              border-radius: 6px;
+              transition: .5s; }
+              .principal .conteudo .container .slides .posts-nav .item-slide .card-post:hover {
+                border-color: #ED686B; }
+                .principal .conteudo .container .slides .posts-nav .item-slide .card-post:hover .coments {
+                  opacity: 1 !important; }
+                .principal .conteudo .container .slides .posts-nav .item-slide .card-post:hover .over {
+                  background: #00000061 !important; }
               .principal .conteudo .container .slides .posts-nav .item-slide .card-post .image {
                 height: 70%;
                 position: relative;
                 background-size: cover;
                 background-position: center;
                 border-radius: 6px 6px 0px 0px; }
+                .principal .conteudo .container .slides .posts-nav .item-slide .card-post .image .over {
+                  transition: .5s;
+                  background: transparent; }
                 .principal .conteudo .container .slides .posts-nav .item-slide .card-post .image .play {
                   position: absolute;
                   left: 3%;
@@ -147,6 +159,18 @@ body {
                     font-size: 12px;
                     align-items: center;
                     justify-content: center; }
+                .principal .conteudo .container .slides .posts-nav .item-slide .card-post .image .coments {
+                  position: absolute;
+                  bottom: 3%;
+                  right: 3%;
+                  opacity: 0;
+                  transition: .5s;
+                  display: flex;
+                  align-items: center; }
+                  .principal .conteudo .container .slides .posts-nav .item-slide .card-post .image .coments .icon {
+                    width: 28px; }
+                  .principal .conteudo .container .slides .posts-nav .item-slide .card-post .image .coments .p-com {
+                    font-size: 16px; }
               .principal .conteudo .container .slides .posts-nav .item-slide .card-post .infos {
                 padding: 4%; }
                 .principal .conteudo .container .slides .posts-nav .item-slide .card-post .infos .categoria {
@@ -169,10 +193,24 @@ body {
           height: 65vh;
           background-size: cover;
           background-position: center;
-          border-radius: 8px 8px 0px 0px; }
+          border-radius: 8px 8px 0px 0px;
+          overflow: hidden;
+          border: 0px solid #000000e6; }
           @media (min-width: 1800px) {
             .principal .conteudo .container .slides .item-slide {
               height: 70vh; } }
+          .principal .conteudo .container .slides .item-slide.grande {
+            transition: .5s; }
+            .principal .conteudo .container .slides .item-slide.grande:hover {
+              border: 5px solid #ED686B; }
+              .principal .conteudo .container .slides .item-slide.grande:hover .over {
+                background: #00000061; }
+                .principal .conteudo .container .slides .item-slide.grande:hover .over .play .circle {
+                  background: #ED686B; }
+          .principal .conteudo .container .slides .item-slide .over {
+            background: transparent;
+            height: 100%;
+            transition: .5s; }
           .principal .conteudo .container .slides .item-slide .content {
             background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
             height: 100%;
@@ -180,7 +218,7 @@ body {
             display: flex;
             align-items: end; }
             .principal .conteudo .container .slides .item-slide .content .infos {
-              width: 90%; }
+              width: 70%; }
               @media (min-width: 1800px) {
                 .principal .conteudo .container .slides .item-slide .content .infos {
                   width: 70%; } }
@@ -190,6 +228,7 @@ body {
                 color: black;
                 background: white;
                 border-radius: 50%;
+                transition: .5s;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -220,5 +259,11 @@ body {
           background: transparent; }
         .principal .conteudo .container .slides .thumb-prev {
           right: 9.5%; }
+
+@media (max-width: 980px) {
+  .principal .conteudo .container .slides {
+    display: block; }
+    .principal .conteudo .container .slides .posts, .principal .conteudo .container .slides .posts-nav {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
