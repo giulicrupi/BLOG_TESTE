@@ -1,3 +1,7 @@
+
+
+
+// chamada para slick js para fazer o carrosel funcionar
 $(document).ready(function(){
 	$('.posts').slick({
 	  slidesToShow: 1,

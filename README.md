@@ -93,6 +93,10 @@ A entrega final será composta por dois artefatos:
 
 ## Comentários sobre o site
 - Todo o código está comentado
+- Ponto importante, a api enviada não estava abrindo corretamente.
+- Gerei uma api no mesmo jeito da enviada, na seguinte url: http://apiseoxteste.servicos.ws/.
+- Usuario: apiseox
+- Senha: Alterar01
 
 
 
