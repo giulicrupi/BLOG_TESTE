@@ -25,7 +25,9 @@ $(document).ready(function(){
         settings: {
         slidesToShow: 1,
         vertical: false,
-        centerMode: false,
+        centerMode: true,
+        infinite: false,
+       variableWidth: true,
         
         }
       }

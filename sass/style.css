@@ -300,6 +300,18 @@ body {
     margin-top: 3%; }
 
   .principal .conteudo .container .slides .posts-nav .item-slide {
-    margin-bottom: 1%; } }
+    margin-bottom: 1%; }
+
+  .principal .conteudo {
+    padding: 4% 0% 1% 0% !important; }
+
+  .posts {
+    padding: 4% 10.3% 1% 10%; }
+
+  .draggable {
+    padding: 0px 15px; }
+
+  .principal .conteudo .container .slides .posts-nav .item-slide .card-post {
+    width: 255px; } }
 
 /*# sourceMappingURL=style.css.map */
